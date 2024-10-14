@@ -5,7 +5,9 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build-github" : "ng build --configuration production --output-path docs --base-href \"/covid19-data-angular/\" && copy 404.html docs\\404.html",
+    "build-github": "ng build --configuration production --output-path docs --base-href \"/covid19-data-angular/\" && copy 404.html docs\\404.html",
+    "build-github-mac": "ng build --configuration production --output-path docs --base-href \"/covid19-data-angular/\" && cpy 404.html docs"
+,
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -15,7 +17,7 @@
     "@angular/cdk": "^15.2.9",
     "@angular/common": "^15.1.0",
     "@angular/compiler": "^15.1.0",
-    "@angular/core": "^15.1.0",
+    "@angular/core": "^15.2.10",
     "@angular/forms": "^15.1.0",
     "@angular/material": "^15.2.9",
     "@angular/platform-browser": "^15.1.0",

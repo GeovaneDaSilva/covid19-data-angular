@@ -1,0 +1,21 @@
+<nav>
+  <div class="logo">COVID-19 Dashboard</div>
+  <div>
+    <a routerLink="/covid-data">Information</a>
+    <a href="https://biostatistics.salud.pr.gov/swagger/index.html" target="_blank">Swagger</a>
+  </div>
+</nav>
+<div class="center-image">
+  <img src="assets/images/covid.png" alt="img_covid">
+</div>
+
+<div class="container-background">
+  <h2>Stay Informed About COVID-19</h2>
+  <p>
+    Get COVID-19 cases grouped by earliest positive diagnostic test sample collected date. Based on data source origin timezone.
+  </p>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
